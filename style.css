@@ -1,0 +1,59 @@
+.card {
+    min-width: 350px;
+}
+
+ .btn-facebook {
+     background-color: #3b5998;
+     color: white;
+ }
+
+ .btn-facebook:hover {
+     background-color: #003284;
+     color: white;
+ }
+
+ .btn-twitter {
+     background-color: #1da1f2;
+     color: white;
+ }
+
+ .btn-twitter:hover {
+     background-color: #007bff;
+     color: white;
+ }
+
+ .btn-instagram {
+     background-color: #e1306c;
+     color: white;
+ }
+
+ .btn-instagram:hover {
+     background-color: #c32aa3;
+     color: white;
+ }
+
+ .btn-whatsapp {
+     background-color: #25d366;
+     color: white;
+ }
+
+ .btn-whatsapp:hover {
+     background-color: #13792d;
+     color: white;
+ }
+
+ .link-card {
+     height: 400px;
+ }
+
+ .link-card .card-body {
+     height: 100%;
+ }
+
+ .link-card .card-body .row {
+     height: 50%;
+ }
+
+ .link-card .card-body .form-group {
+     height: 60px;
+ }

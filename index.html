@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+     <title>Link Downloader</title>
+     <title>YT Downloader</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+
+     <script src="script.js"></script>
+
+        
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                 <div class="card link-card">
+                 <div class="card">
+                    <div class="card-header text-center">
+                         Link Downloader
+                         YT Downloader
+                    </div>
+                    <div class="card-body">
+                        <form action="download.php" method="POST">
+                             <div class="row">
+                                 <div class="col">
+                                     <div class="form-group">
+                                         <label for="url">Youtube URL</label>
+                                         <input type="text" class="form-control" name="url" id="url" aria-describedby="urlHelp"
+                                             placeholder="Enter Video URL">
+                                         <small id="urlHelp" class="form-text text-muted">Type in the URL of the video you
+                                             want to download.</small>
+                                     </div>
+                                 </div>
+                                 <div class="col">
+                                     <div class="form-group">
+                                         <label for="quality">Quality</label>
+                                         <select class="form-control" name="quality" id="quality">
+                                             <option value="144">144p</option>
+                                             <option value="240">240p</option>
+                                             <option value="360">360p</option>
+                                             <option value="480">480p</option>
+                                             <option value="720">720p</option>
+                                             <option value="1080">1080p</option>
+                                         </select>
+                                     </div>
+                                 </div>
+                             <div class="form-group">
+                                 <label for="url">Youtube URL</label>
+                                 <input type="text" class="form-control" name="url" id="url" aria-describedby="urlHelp"
+                                     placeholder="Enter Video URL">
+                                 <small id="urlHelp" class="form-text text-muted">Type in the URL of the video you want to
+                                     download.</small>
+                            </div>
+                             <div class="row">
+                                 <div class="col">
+                             <div class="form-group">
+                                 <label for="quality">Quality</label>
+                                 <select class="form-control" name="quality" id="quality">
+                                     <option value="144">144p</option>
+                                     <option value="240">240p</option>
+                                     <option value="360">360p</option>
+                                     <option value="480">480p</option>
+                                     <option value="720">720p</option>
+                                     <option value="1080">1080p</option>
+                                 </select>
+                             </div>
+                             <button type="submit" class="btn btn-primary">Download</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ 
+     
+ </body>
+
+</html>
+
